@@ -1,0 +1,202 @@
+{% extends "base.html" %}
+{% block title %}Portfolio{% endblock %}
+{% block content %}
+<section id="home" class="hero">
+    <div class="hero-image">
+        <img src="{{ url_for('static',path='images/manoj.jpeg')}}" alt="Betha Manoj Profile Photo">
+    </div>
+    <div class="hero-content">
+        <p class="intro">HELLO, I'M</p>
+        <h1>BETHA <span>MANOJ</span></h1>
+        <h2>FULL STACK DEVELOPER</h2>
+        <P>
+            Aspiring Software Developer with good knowledge of
+            Python, SQL and FastAPI. Interested in building
+            database-driven applications and exploring new technologies.
+            Looking for opportunities to start my career in IT sector.
+        </P>
+        <div class="social-links">
+            <a href="https://github.com/bethamanoj" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/manoj-betha-844543371/" target="_blank">LinkedIn</a>
+            <a href="mailto:bethamanoj01@gmail.com">Email</a>
+        </div>
+        <a href="#projects" class="btn">View my Work</a>
+    </div>
+</section>
+
+<section id="about" class="about-goal">
+    <div class="about-box">
+        <div>
+            <h2>About me</h2>
+            <p>
+                I am an Electronics and Communication Engineering graduate from Anil Neerukonda Institute of Technology and Sciences (2022-2026).
+                I have a strong interest in the IT and software industry, with good knowledge of Python and SQL.
+                I have experience developing database-driven applications using Python and MySQL. I am also familiar with FastAPI, DBMS, Git, GitHub, HTML and CSS.
+            </p>
+        </div>
+    </div>
+    <div class="goal-box">
+        <div>
+            <h2>My Goal</h2>
+            <p>
+                To secure an entry-level opportunity in the IT industry
+                where I can apply my technical skills, learn new
+                technologies, work on real-world projects and grow
+                as a software developer.
+            </p>
+        </div>
+</section>
+
+<section id="skills" class="section">
+    <h2 class="section-heading">My Skills</h2>
+    <div class="skills-container">
+        <div class="skill-card">
+            <h3>Programming Languages</h3>
+            <p>Python, SQL, HTML, CSS</p>
+        </div>
+        <div class="skill-card">
+            <h3>Backend Framework</h3>
+            <p>FastAPI</p>
+        </div>
+        <div class="skill-card">
+            <h3>Libraries</h3>
+            <p>NumPy</p>
+        </div>
+        <div class="skill-card">
+            <h3>Databases</h3>
+            <p>MySQL</p>
+        </div>
+        <div class="skill-card">
+            <h3>Tools</h3>
+            <p>Git, GitHub</p>
+        </div>
+        <div class="skill-card">
+            <h3>Soft Skills</h3>
+            <p>Teamwork, Communication, Problem Solving</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <h2 class="section-heading">My Projects</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <h3>Employee Management & Attendance System</h3>
+            <p>
+                Developed a Python-based system to manage employee
+                records and attendance using MySQL. Implemented CRUD
+                operations and SQL queries.
+            </p>
+            <p class="tech">Python | SQL | MySQL</p>
+            <a href="https://github.com/bethamanoj/employee-management-attendance-system" target="_blank">
+                View on GItHub ➡️
+            </a>
+        </div>
+        <div class="project-card">
+            <h3>Student Performance Analysis System</h3>
+            <p>
+                Developed a student performance analysis system
+                using Python, MySQL and NumPy to manage student
+                records and analyze academic performance.
+            </p>
+            <p class="tech">Python | SQL | MySQL | NumPy</p>
+            <a href="https://github.com/bethamanoj/student-performance-analysis-system" target="_blank">
+                View on GItHub ➡️
+            </a>
+        </div>
+        <div class="project-card">
+            <h3>Dental Website</h3>
+            <p>
+                Designed and developed a dental website interface
+                using HTML and CSS.
+            </p>
+            <p class="tech">HTML | CSS</p>
+            <a href="https://github.com/bethamanoj/dental_page" target="_blank">
+                View on GItHub ➡️
+            </a>
+        </div>
+         <div class="project-card">
+            <h3>Task Manager</h3>
+            <p>
+                Developed a task management application using
+                FastAPI and database integration to manage
+                task records.
+            </p>
+            <p class="tech">Python | FastAPI | MySQL | HTML | CSS</p>
+            <a href="https://github.com/bethamanoj/taskmanager" target="_blank">
+                View on GItHub ➡️
+            </a>
+        </div>
+         <div class="project-card">
+            <h3>ShopKart E-Commerce Website</h3>
+            <p>
+                Developed an e-commerce website with product
+                management and user registration functionality.
+            </p>
+            <p class="tech">Python | FastAPI | SQLAlchemy | MySQL | HTML | CSS</p>
+            <a href="https://github.com/bethamanoj/shopkart_website" target="_blank">
+                View on GItHub ➡️
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="internships" class="section">
+    <div class="internship-contact">
+        <div class="internships-area">
+            <h2 class="section-heading">My Internships</h2>
+            <div class="internship-card">
+                <h3>Programable Logic Controllers (PLC)</h3>
+                <h4>Indo German Institute of Advanced Technology</h4>
+                <p>
+                    Gained practical experience in ladder logic
+                    programming, automation workflows, sensors
+                    and logic diagrams.
+                </p>
+            </div>
+            <div class="internship-card">
+                <h3>CNS Department</h3>
+                <h4>Airport Authority of India</h4>
+                <p>
+                    Gained knowledge of communication networks,
+                    navigation aids and surveillance systems,
+                    including RADAR.
+                </p>
+            </div>
+        </div>
+        <div id="contact" class="contact-area">
+            <h2 class="section-heading">Let's Connect</h2>
+            <div class="contact-card">
+                <div class="contact-message">
+                    <p>
+                        I am a fresher actively looking for
+                        entry-level opportunities in the IT industry.
+                        I would love to apply my Python and SQL skills,
+                        learn new technologies and contribute to
+                        real-world projects.
+                    </p>
+                    <a href="mailto:bethamanoj01@gmail.com"
+                       class="contact-btn">Contact Me ➡️</a>
+                </div>
+                <div class="contact-details">
+                    <p>
+                        <a href="mailto:bethamanoj01@gmail.com">
+                            bethamanoj01@gmail.com
+                        </a>
+                    </p>
+                    <p>+91 77805 08894</p>
+                    <p>Visakhapatnam, Andhra Pradesh</p>
+                    <p>
+                        <a href="https://github.com/bethamanoj"
+                           target="_blank">github.com/bethamanoj</a>
+                    </p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/manoj-betha-844543371/"
+                           target="_blank">LinkedIn Profile</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
