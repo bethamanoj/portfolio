@@ -148,7 +148,7 @@ a{text-decoration: none;}
 }
 .section-heading{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 35px;
     color: rgb(21, 162, 146);
 }
@@ -172,8 +172,23 @@ a{text-decoration: none;}
     font-size: 32px;
     margin-top: 10px;
 }
-.skill-card p{
-    font-size: 15px;
+.skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+    background: rgba(255,255,255,0.10);
+    padding: 18px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 19px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.skill:hover{
+    transform: translateY(-6px);
 }
 .about-box,
 .goal-box
